@@ -2,6 +2,7 @@ import React, { createElement } from 'react';
 import './App.css';
 import Navigation from './components/Navigation';
 import { BrowserRouter, Router, Routes } from 'react-router-dom';
+import Greeting from './components/Greeting';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
              </ul>
            </div>
        <div className="Main">
-           <h2>Main Content</h2>
+           <Greeting/>
        </div>
        <div className="Footer">
           <h3>Footer Content</h3>
