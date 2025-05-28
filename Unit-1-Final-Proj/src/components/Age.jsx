@@ -1,16 +1,15 @@
+import React,{useState} from "react";
 
-
-
-export default function Greeting ({value, onChange}){      
+export default function GetAge ({value, onChange}){
 
 return(
     <div>
         <form>
             <label>
-             What is your first name? 
-            <input
+                What is your age? 
+                <input
                 type="text"
-                name="name"
+                name="age"
                 value={value}
                 onChange={onChange}
                 />
@@ -18,6 +17,4 @@ return(
         </form>
     </div>
     );
-
 }
-

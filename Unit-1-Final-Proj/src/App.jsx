@@ -1,8 +1,11 @@
 import React, { createElement } from 'react';
 import './App.css';
-import Navigation from './components/Navigation';
 import { BrowserRouter, Router, Routes } from 'react-router-dom';
 import Greeting from './components/Greeting';
+import GetAge from './components/Age';
+import GetPronouns from './components/Pronouns';
+import GetHobbies from './components/Hobbies';
+import Profile from './components/Profile';
 
 
 function App() {
@@ -21,7 +24,21 @@ function App() {
              </ul>
            </div>
        <div className="Main">
+        <div>
            <Greeting/>
+       </div>
+       <div>
+        <GetAge/>
+       </div>
+       <div>
+        <GetPronouns/>
+       </div>
+       <div>
+        <GetHobbies/>
+       </div>
+       <div>
+   
+       </div>
        </div>
        <div className="Footer">
           <h3>Footer Content</h3>
