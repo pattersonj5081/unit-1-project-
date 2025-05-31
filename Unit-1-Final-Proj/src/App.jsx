@@ -1,51 +1,52 @@
-import React, { createElement } from 'react';
-import './App.css';
-import { BrowserRouter, Router, Routes } from 'react-router-dom';
-import Greeting from './components/Greeting';
-import GetAge from './components/Age';
-import GetPronouns from './components/Pronouns';
-import GetHobbies from './components/Hobbies';
-import Profile from './components/Profile';
+import React, { useState } from "react";
+import "./App.css";
+import UserForm from "./components/UserForm";
+import Profile from "./components/Profile";
+import { Route, Routes } from "react-router-dom";
+import { Feed } from "./components/feed";
+
+/*From here I want to 
+   1. Define what happens to profile.hobbies 
+      -if profile.hobbies includes an event listed with that hobby in events.JSON, I want it to get added to the feed. 
+      -define how these events will get rendered in a feed.jsx file 
+      -upload events.jsx and have the function feed take {profile.hobbies} in as props
+   2. Route the profile page to the feed page next
+*/
 
 
 function App() {
+  const [profile, setProfile] = useState({
+    name: "",
+    age: "",
+    pronouns: "",
+    hobbies: [],
+    location: "St. Louis",
+  });
 
- return (
-  <>
-    <div className="App">
-       <div className="Header">
-            <h1>Header Content</h1>
-       </div>
-           <div className='Navigation'>
-             <ul>
-              <li>Home</li>
-              <li>Saved Events</li>
-              <li>Profile</li>
-             </ul>
-           </div>
-       <div className="Main">
-        <div>
-           <Greeting/>
-       </div>
-       <div>
-        <GetAge/>
-       </div>
-       <div>
-        <GetPronouns/>
-       </div>
-       <div>
-        <GetHobbies/>
-       </div>
-       <div>
-   
-       </div>
-       </div>
-       <div className="Footer">
+  return (
+      <div className="App">
+        <div className="Header">
+          <h1>Header Content</h1>
+        </div>
+
+        <div className="Main">
+          <div>
+            <Routes>
+               <Route
+                  path="/"
+                  element={<UserForm profile={profile} setProfile={setProfile}/>} // this is the User From path route (It will take the suer through all of the intake questions)
+                  />
+               <Route path="/profile" element={<Profile profile={profile}/>}/> 
+            <Route path="/feed" element={<Feed profile={profile}/>}/>
+            </Routes>
+            </div>
+      
+        </div>
+        <div className="Footer">
           <h3>Footer Content</h3>
-       </div>
-    </div>
-  </>
- );
+        </div>
+      </div>
+  );
 }
 
 export default App;
