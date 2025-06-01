@@ -4,6 +4,7 @@ import UserForm from "./components/UserForm";
 import Profile from "./components/Profile";
 import { Route, Routes } from "react-router-dom";
 import { Feed } from "./components/feed";
+import AboutPage from "./components/AboutPage";
 
 /*From here I want to 
    1. Define what happens to profile.hobbies 
@@ -26,7 +27,12 @@ function App() {
   return (
       <div className="App">
         <div className="Header">
-          <h1>Header Content</h1>
+          <ul>
+  <li><a href="">Feed</a></li>
+  <li><a href="">About</a></li>
+  <li><a href="">Saved Events</a></li>
+  <li><a href="">Profile</a></li>
+         </ul>
         </div>
 
         <div className="Main">
@@ -38,6 +44,7 @@ function App() {
                   />
                <Route path="/profile" element={<Profile profile={profile}/>}/> 
             <Route path="/feed" element={<Feed profile={profile}/>}/>
+            <Route path="/about" element={<AboutPage/>}/>
             </Routes>
             </div>
       
