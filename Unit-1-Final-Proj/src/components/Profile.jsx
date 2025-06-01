@@ -14,6 +14,7 @@ export default function Profile({ profile }) {
       <p>location: {location}</p>
       <div>
     <GeneralNav to="/feed" label="Continue to Feed"/>
+    <GeneralNav to="/"label="Edit Profile"/>
     </div>
     </div>
   );
