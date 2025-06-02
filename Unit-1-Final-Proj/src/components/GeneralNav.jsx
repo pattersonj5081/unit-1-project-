@@ -5,7 +5,7 @@ export default function GeneralNav({to,label}){
     const handleClick = () => {
         navigate(to)}
     return(
-    <button onClick={handleClick}>
+    <button  className="general-button" onClick={handleClick}>
     {label}
     </button>
     ); 

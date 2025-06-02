@@ -6,12 +6,17 @@ import GetHobbies from "./Hobbies";
 import { useNavigate } from "react-router-dom";
 
 export default function UserForm({ profile, setProfile }) {
+  const [showWarning, setShowWarning]= useState(false); 
   const steps = ["name", "age", "pronouns", "hobbies", "feed"];
   const [currentStep, setCurrentStep] = useState("name");
   const handleNext = () => {
     const index = steps.indexOf(currentStep);
     if (index < steps.length - 1) {
       setCurrentStep(steps[index + 1]);
+    }
+    if (currentStep === "age"){
+        profile.age < 65 ? setShowWarning(true)
+        : setShowWarning(false)     
     }
   };
   const handleBack = () => {
@@ -29,7 +34,10 @@ export default function UserForm({ profile, setProfile }) {
                                                    //Decided a general handler here that targets the field is the easiest way to go.
     const { value, checked } = e.target;
 
+    
+
     setProfile((prev) => {
+    
       if (fieldName === "hobbies") {
         const updatedHobbies = checked
           ? [...prev.hobbies, value]                          // is the value checked? , if so add it to the array
@@ -49,6 +57,13 @@ export default function UserForm({ profile, setProfile }) {
   };
   return (
     <>
+    {showWarning && (
+  <div>
+    <h3>Warning!</h3>
+    <p>This application is intended for those 65 and older!Please be advised!</p>
+  </div>
+)}
+    <p>Step {steps.indexOf(currentStep) + 1} of {steps.length}</p>
       <div>
         {currentStep === "name" && (
           <Greeting

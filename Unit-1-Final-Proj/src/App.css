@@ -1,16 +1,91 @@
 .Header {
-  background-color: orange;
-  height: 200px;
+  background-color: #E7BF21;
+  height: 230px;
 }
-.Navigation {
-  background-color: lightblue;
-  height: 100px;
+#header-logo{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main-nav-buttons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1%;
 }
 .Main {
-  background-color: lightgoldenrodyellow;
-  height: 2400px;
+height: auto;
+}
+.general-button{
+font-size: x-large;
+font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+font-weight:300;
+background-color: lightgoldenrodyellow;
+border: none;
+padding: 12px 28px;
+border-radius: 12px;
 }
 .Footer {
   background-color: orange;
   height: 200px;
+}
+body{
+  background-color: #FFD700;
+}
+.event-card h3{
+font-size: x-large;
+font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+font-weight:500;
+margin: 5px 50px;
+}
+.event-card p{
+font-size:larger;
+font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+font-weight:300;
+margin: 25px 50px;
+}
+.event-card{
+ background-color: lightgoldenrodyellow;
+ height: 350px;
+ margin:3% ;
+ padding-top:10px;
+ border-radius: 25px;
+}
+#back-to-profile{
+display: flex;
+justify-content: center;
+}
+.profile-card h2{
+ font-size:xx-large;
+font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+font-weight:500;
+margin: 25px 50px; 
+}
+.profile-card p{
+font-size:larger;
+font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+font-weight:300;
+margin: 25px 50px; 
+}
+.profile-card{
+ background-color: lightgoldenrodyellow;
+ height: auto;
+ margin:3% ;
+ padding-top:10px;
+ border-radius: 25px;
+}
+#profile-buttons-container{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 5%;
+  margin: 50px;
+}
+
+#about-page{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto; 
 }

@@ -5,6 +5,7 @@ import Profile from "./components/Profile";
 import { Route, Routes } from "react-router-dom";
 import { Feed } from "./components/feed";
 import AboutPage from "./components/AboutPage";
+import GeneralNav from "./components/GeneralNav";
 
 /*From here I want to 
    1. Define what happens to profile.hobbies 
@@ -27,12 +28,16 @@ function App() {
   return (
       <div className="App">
         <div className="Header">
-          <ul>
-  <li><a href="">Feed</a></li>
-  <li><a href="">About</a></li>
-  <li><a href="">Saved Events</a></li>
-  <li><a href="">Profile</a></li>
-         </ul>
+          <div id="header-logo">
+          <img src="GGlogo.png" height="150px" />
+          </div>
+          <div id="main-nav-buttons" className="flex-container">
+         <GeneralNav label="About Page" to="/about"/>
+          <GeneralNav label="Profile" to="/profile"/>
+          <GeneralNav label="Feed" to="/feed"/>
+          </div>
+          
+         
         </div>
 
         <div className="Main">

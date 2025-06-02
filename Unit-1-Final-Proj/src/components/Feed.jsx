@@ -29,8 +29,8 @@ return (
         <p>{event.tags.join(", ")}</p>
           </div>    
     ))}
-    <div>
-    <GeneralNav to="/profile" label="Back to Profile"/>
+    <div className="flex-container" id="back-to-profile">
+    <GeneralNav to="/profile" label="Back to Profile" />
     </div>
   </>
 );

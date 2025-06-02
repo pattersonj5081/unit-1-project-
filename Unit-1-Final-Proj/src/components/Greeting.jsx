@@ -1,5 +1,5 @@
-export default function Greeting({ value, onChange }) {
-  return (
+export default function Greeting({ value, onChange}) {
+    return (
     <div>
       <form>
         <label>
