@@ -1,5 +1,6 @@
 import events from "../data/events.json";
 import GeneralNav from "./GeneralNav";
+import React from "react";
 /*From here I want to 
    1. Define what happens to profile.hobbies 
       -if profile.hobbies includes an event listed with that hobby in events.JSON, I want it to get added to the feed. 
