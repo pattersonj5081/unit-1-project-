@@ -3,7 +3,7 @@ import "./App.css";
 import UserForm from "./components/UserForm";
 import Profile from "./components/Profile";
 import { Route, Routes } from "react-router-dom";
-import { Feed } from "./components/feed";
+import Feed from "./components/feed";
 import AboutPage from "./components/AboutPage";
 import GeneralNav from "./components/GeneralNav";
 
@@ -15,9 +15,9 @@ import GeneralNav from "./components/GeneralNav";
    2. Route the profile page to the feed page next
 */
 
-
 function App() {
-  const [profile, setProfile] = useState({
+  const [profile, setProfile] = useState({   // Profile Structure/ Keys.
+   
     name: "",
     age: "",
     pronouns: "",
@@ -25,39 +25,41 @@ function App() {
     location: "St. Louis",
   });
 
-  return (
-      <div className="App">
-        <div className="Header">
-          <div id="header-logo">
-          <img src="GGlogo.png" height="150px" />
-          </div>
-          <div id="main-nav-buttons" className="flex-container">
-         <GeneralNav label="About Page" to="/about"/>
-          <GeneralNav label="Profile" to="/profile"/>
-          <GeneralNav label="Feed" to="/feed"/>
-          </div>
-          
-         
-        </div>
+  return (                    //Defines core app layout and Routes
+    <div className="App">
+      <div id="Header">
+        <img
+          id="header-logo"
+          className="flex-container"
+          src="GGlogo.png"
+          alt="Get Golden logo"
+        />
 
-        <div className="Main">
-          <div>
-            <Routes>
-               <Route
-                  path="/"
-                  element={<UserForm profile={profile} setProfile={setProfile}/>} // this is the User From path route (It will take the suer through all of the intake questions)
-                  />
-               <Route path="/profile" element={<Profile profile={profile}/>}/> 
-            <Route path="/feed" element={<Feed profile={profile}/>}/>
-            <Route path="/about" element={<AboutPage/>}/>
-            </Routes>
-            </div>
-      
-        </div>
-        <div className="Footer">
-          <h3>Footer Content</h3>
+        <div id="header-button-box" className="flex-container">
+          <GeneralNav label="About Page" to="/about" id="about-page-button" />  
+          <GeneralNav label="Profile" to="/profile" id="profile-page-button" />
+          <GeneralNav label="Feed" to="/feed" id="feed-page-button" />
         </div>
       </div>
+       
+      <div className="Main">  
+        <div>
+          <Routes>    
+            <Route
+              path="/"
+              element={<UserForm profile={profile} setProfile={setProfile} />} // this is the User From path route (It will take the user through all of the onboarding questions.)
+            />
+            <Route path="/profile" element={<Profile profile={profile} />} />
+            <Route path="/feed" element={<Feed profile={profile} />} />
+            <Route path="/about" element={<AboutPage />} />
+          </Routes>
+        </div>
+      </div>
+
+      <div className="flex-container" id="Footer">
+        <h2>Get Golden &copy;</h2>
+      </div>
+    </div>
   );
 }
 

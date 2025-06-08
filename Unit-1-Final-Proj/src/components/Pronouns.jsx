@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
 export default function GetPronouns({ value, onChange }) {
+  //Pronoun Screen
   return (
-    <div>
+    <div id="pronouns">
       <form>
         <label>
           What are your pronouns?
@@ -10,7 +11,7 @@ export default function GetPronouns({ value, onChange }) {
           <input
             type="radio"
             name="pronouns"
-            value="She/Her/Hers" //Had to set this one up a bit differently
+            value="She/Her/Hers"
             checked={value === "She/Her/Hers"}
             onChange={onChange}
           />

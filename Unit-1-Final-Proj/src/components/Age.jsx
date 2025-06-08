@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 
 export default function GetAge({ value, onChange }) {
+  //Age screen (Age warning conditionally renders. Functionality in UserForm component)
   return (
-    <div>
+    <div id="age">
       <form>
-        <label>
+        <label for="age-input">
           What is your age?
-          <input type="text" name="age" value={value} onChange={onChange} />
+          <input type="number" name="age" value={value} onChange={onChange} />
         </label>
       </form>
     </div>

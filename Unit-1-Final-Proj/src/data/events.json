@@ -1,182 +1,237 @@
 [
- {
-    "title":"Community Book Club: \"The Great Gatsby\"" ,
-     "date": "2025-07-10",
-     "time":"6:00 PM - 7:30 PM" ,
-     "location":"Maplewppd Public Library, St.Louis" , 
-     "description":"Join fellow literature lovers for a relaxed discussion of F. Scott Fitzgerald's classic novel. Light snacks provided.", 
-     "tags": ["#reading", "#indoor", "#accessible", "#library", "#social"],
-     "hobby": "reading"
- }, 
+  {
+    "title": "Community Book Club: \"The Great Gatsby\"",
+    "date": "2025-07-10",
+    "time": "6:00 PM - 7:30 PM",
+    "location": "Maplewood Public Library",
+    "description": "Join fellow literature lovers for a relaxed discussion of F. Scott Fitzgerald's classic novel. Light snacks provided.",
+    "tags": ["#reading", "#indoor", "#accessible", "#library", "#social"],
+    "hobby": "reading"
+  },
   {
     "title": "Farmers Market Cooking Demo",
-     "date":"2025-07-12" ,
-     "time": "11:00 AM - 12:30 PM",
-     "location":"Tower Grove Farmers Market Pavilion" , 
-     "description":"Watch and learn how to make fresh summer dishes with local produce. Recipes provided.", 
-     "tags": ["#cooking", "#outdoor", "#accessible", "#healthy", "#community"], 
-     "hobby": "cooking"
- }, 
+    "date": "2025-07-12",
+    "time": "11:00 AM - 12:30 PM",
+    "location": "Tower Grove Farmers Market Pavilion",
+    "description": "Watch and learn how to make fresh summer dishes with local produce. Recipes provided.",
+    "tags": ["#cooking", "#outdoor", "#accessible", "#healthy", "#community"],
+    "hobby": "cooking"
+  },
   {
-    "title":"Container Gardening Basics" ,
-     "date":"2025-07-14" ,
-     "time":"10:00 AM - 11:30 AM" ,
-     "location":"EarthDance Organic Farm School", 
-     "description":"Learn how to grow vegetables and herbs in containers, perfect for patios or small spaces.", 
-     "tags": ["#gardening", "#outdoor", "#hands-on", "#accessible", "#eco-friendly"], 
-     "hobby": "gardening"
- },
+    "title": "Container Gardening Basics",
+    "date": "2025-07-14",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "EarthDance Organic Farm School",
+    "description": "Learn how to grow vegetables and herbs in containers, perfect for patios or small spaces.",
+    "tags": [
+      "#gardening",
+      "#outdoor",
+      "#hands-on",
+      "#accessible",
+      "#eco-friendly"
+    ],
+    "hobby": "gardening"
+  },
   {
-    "title":"Watercolors in the Park",
-     "date":"2025-07-15" ,
-     "time":"4:00 PM - 6:00 PM" ,
-     "location":"Forest Park, Art Hill" , 
-     "description":"Enjoy a casual plein air painting session—no experience needed. Supplies provided.", 
-     "tags": ["#painting", "#outdoor", "#accessible", "#creative", "#nature"], 
-     "hobby": "painting"
- }, 
+    "title": "Watercolors in the Park",
+    "date": "2025-07-15",
+    "time": "4:00 PM - 6:00 PM",
+    "location": "Forest Park, Art Hill",
+    "description": "Enjoy a casual plein air painting session—no experience needed. Supplies provided.",
+    "tags": ["#painting", "#outdoor", "#accessible", "#creative", "#nature"],
+    "hobby": "painting"
+  },
   {
-    "title":"Memoir Writing Circle",
-     "date":"2025-07-16",
-     "time":"1:00 PM - 2:30 PM",
-     "location":"South City Senior Center", 
-     "description":"Share your life stories and gain feedback in this supportive, peer-led writing group.", 
-     "tags": ["#writing", "#indoor", "#accessible", "#storytelling", "#community"], 
-     "hobby":"writing"
- }, 
+    "title": "Memoir Writing Circle",
+    "date": "2025-07-16",
+    "time": "1:00 PM - 2:30 PM",
+    "location": "South City Senior Center",
+    "description": "Share your life stories and gain feedback in this supportive, peer-led writing group.",
+    "tags": [
+      "#writing",
+      "#indoor",
+      "#accessible",
+      "#storytelling",
+      "#community"
+    ],
+    "hobby": "writing"
+  },
   {
-    "title":"Knit & Sip Meetup",
-     "date":"2025-07-17" ,
-     "time":"3:00 PM - 4:30 PM" ,
-     "location":"MoKa Coffeehouse, Central West End" , 
-     "description":"Bring your needles and favorite pattern. Complimentary coffee for all participants.", 
-     "tags": ["#knitting", "#indoor", "#accessible", "#crafts", "#social"], 
-     "hobby": "knitting"
- }, 
+    "title": "Knit & Sip Meetup",
+    "date": "2025-07-17",
+    "time": "3:00 PM - 4:30 PM",
+    "location": "MoKa Coffeehouse, Central West End",
+    "description": "Bring your needles and favorite pattern. Complimentary coffee for all participants.",
+    "tags": ["#knitting", "#indoor", "#accessible", "#crafts", "#social"],
+    "hobby": "knitting"
+  },
   {
     "title": "Beginner's Trail Walk",
-     "date": "2025-07-18",
-     "time":"9:00 AM - 10:30 AM" ,
-     "location": "Cliff Cave County Park", 
-     "description":"Easy-paced hike on a scenic loop. Benches and shaded paths available.", 
-     "tags": ["#hiking", "#outdoor", "#accessibletrail", "#nature", "#fitness"], 
-     "hobby": "hiking"
- }, 
+    "date": "2025-07-18",
+    "time": "9:00 AM - 10:30 AM",
+    "location": "Cliff Cave County Park",
+    "description": "Easy-paced hike on a scenic loop. Benches and shaded paths available.",
+    "tags": ["#hiking", "#outdoor", "#accessibletrail", "#nature", "#fitness"],
+    "hobby": "hiking"
+  },
   {
-    "title":"Nature Photography Stroll",
-     "date":"2025-07-20",
-     "time":"5:00 PM - 6:30 PM",
-     "location":"Missouri Botanical Garden" , 
-     "description":"Capture the beauty of seasonal blooms while learning basic photo techniques.", 
-     "tags": ["#photography", "#outdoor", "#accessible", "#creative", "#learning"], 
-     "hobby": "photography"
- }, 
+    "title": "Nature Photography Stroll",
+    "date": "2025-07-20",
+    "time": "5:00 PM - 6:30 PM",
+    "location": "Missouri Botanical Garden",
+    "description": "Capture the beauty of seasonal blooms while learning basic photo techniques.",
+    "tags": [
+      "#photography",
+      "#outdoor",
+      "#accessible",
+      "#creative",
+      "#learning"
+    ],
+    "hobby": "photography"
+  },
   {
-    "title":"Armchair Travelers Club: Italy" ,
-     "date":"2025-07-21" ,
-     "time":"2:00 PM - 3:30 PM",
-     "location":"North County Library" ,  
-     "description": "A virtual “trip” through Italy with slides, stories, and cultural treats.", 
-     "tags": ["#traveling", "#indoor", "#accessible", "#culture", "#education"], 
-     "hobby": "traveling"
- }, 
+    "title": "Armchair Travelers Club: Italy",
+    "date": "2025-07-21",
+    "time": "2:00 PM - 3:30 PM",
+    "location": "North County Library",
+    "description": "A virtual “trip” through Italy with slides, stories, and cultural treats.",
+    "tags": ["#traveling", "#indoor", "#accessible", "#culture", "#education"],
+    "hobby": "traveling"
+  },
   {
     "title": "Golden Grooves: Social Dance Night",
-     "date": "2025-07-22",
-     "time":"7:00 PM - 9:00 PM" ,
-     "location":"Urban Ballroom Studio" , 
-     "description":"Swing, waltz, and line dance—no partner needed. Wheelchair accessible dance floor.", 
-     "tags": ["#dancing", "#indoor", "#accessible", "#social", "#music"], 
-     "hobby": "dancing"
- }, 
+    "date": "2025-07-22",
+    "time": "7:00 PM - 9:00 PM",
+    "location": "Urban Ballroom Studio",
+    "description": "Swing, waltz, and line dance—no partner needed. Wheelchair accessible dance floor.",
+    "tags": ["#dancing", "#indoor", "#accessible", "#social", "#music"],
+    "hobby": "dancing"
+  },
   {
-    "title":"Chair Yoga for All Levels" ,
-     "date":"2025-07-23",
-     "time":"10:00 AM - 11:00 AM" ,
-     "location":"Downtown Wellness Center" , 
-     "description":" A gentle yoga class using chairs for support, ideal for all mobility levels.", 
-     "tags": ["#yoga", "#indoor", "#accessible", "#wellness", "#gentlemovement"], 
-     "hobby":"yoga"
- }, 
+    "title": "Chair Yoga for All Levels",
+    "date": "2025-07-23",
+    "time": "10:00 AM - 11:00 AM",
+    "location": "Downtown Wellness Center",
+    "description": " A gentle yoga class using chairs for support, ideal for all mobility levels.",
+    "tags": ["#yoga", "#indoor", "#accessible", "#wellness", "#gentlemovement"],
+    "hobby": "yoga"
+  },
   {
-    "title":"Morning Fishing at the Lake",
-     "date":"2025-07-24" ,
-     "time":"8:00 AM - 10:30 AM" ,
-     "location":"Creve Coeur Lake" , 
-     "description":"Bring your gear and enjoy a quiet morning of catch-and-release fishing. Permits provided.", 
-     "tags": ["#fishing", "#outdoor", "#accessiblepier", "#relaxation", "#nature"], 
-     "hobby":"fishing"
- }, 
+    "title": "Morning Fishing at the Lake",
+    "date": "2025-07-24",
+    "time": "8:00 AM - 10:30 AM",
+    "location": "Creve Coeur Lake",
+    "description": "Bring your gear and enjoy a quiet morning of catch-and-release fishing. Permits provided.",
+    "tags": [
+      "#fishing",
+      "#outdoor",
+      "#accessiblepier",
+      "#relaxation",
+      "#nature"
+    ],
+    "hobby": "fishing"
+  },
   {
-    "title":"Birding for Beginners" ,
-     "date":"2025-07-25" ,
-     "time":"7:30 AM - 9:00 AM",
-     "location":"Missouri Bottoms Conservation Area", 
-     "description":"Early morning birdwalk with guide. Binoculars available to borrow.", 
-     "tags": ["#birdwatching", "#outdoor", "#accessibletrail", "#nature", "#learning"], 
-     "hobby": "birdwatching"
- }, 
+    "title": "Birding for Beginners",
+    "date": "2025-07-25",
+    "time": "7:30 AM - 9:00 AM",
+    "location": "Missouri Bottoms Conservation Area",
+    "description": "Early morning birdwalk with guide. Binoculars available to borrow.",
+    "tags": [
+      "#birdwatching",
+      "#outdoor",
+      "#accessibletrail",
+      "#nature",
+      "#learning"
+    ],
+    "hobby": "birdwatching"
+  },
   {
-    "title":" Intro to Woodshop Safety & Tools" ,
-     "date":"2025-07-26",
-     "time":"1:00 PM - 3:00 PM" ,
-     "location":"Perennial STL Workshop" , 
-     "description":"Learn basic woodworking skills and get hands-on in a guided project.", 
-     "tags": ["#woodworking", "#indoor", "#accessible", "#hands-on", "#creative"], 
-     "hobby": "woodworking"
- }, 
+    "title": " Intro to Woodshop Safety & Tools",
+    "date": "2025-07-26",
+    "time": "1:00 PM - 3:00 PM",
+    "location": "Perennial STL Workshop",
+    "description": "Learn basic woodworking skills and get hands-on in a guided project.",
+    "tags": [
+      "#woodworking",
+      "#indoor",
+      "#accessible",
+      "#hands-on",
+      "#creative"
+    ],
+    "hobby": "woodworking"
+  },
   {
-    "title":"Community Jam Session",
-     "date":"2025-07-27" ,
-     "time":"6:00 PM - 8:00 PM",
-     "location":"St. Louis Music Co-op" , 
-     "description":" Bring your instrument and join an inclusive, no-pressure music jam.", 
-     "tags": ["#playingmusic", "#indoor", "#accessible", "#creative", "#social"], 
-     "hobby": "playingmusic"
- }, 
- 
+    "title": "Community Jam Session",
+    "date": "2025-07-27",
+    "time": "6:00 PM - 8:00 PM",
+    "location": "St. Louis Music Co-op",
+    "description": " Bring your instrument and join an inclusive, no-pressure music jam.",
+    "tags": ["#playingmusic", "#indoor", "#accessible", "#creative", "#social"],
+    "hobby": "playingmusic"
+  },
+
   {
-    "title":"Baking with Berries" ,
-     "date":"2025-07-28",
-     "time":"2:00 PM - 3:30 PM" ,
-     "location":"Neighborhood Kitchen Collective" , 
-     "description":"Hands-on class to make simple berry tarts using seasonal ingredients.", 
-     "tags": ["#baking", "#indoor", "#accessible", "#cooking", "#desserts"], 
-     "hobby": "baking"
- }, 
+    "title": "Baking with Berries",
+    "date": "2025-07-28",
+    "time": "2:00 PM - 3:30 PM",
+    "location": "Neighborhood Kitchen Collective",
+    "description": "Hands-on class to make simple berry tarts using seasonal ingredients.",
+    "tags": ["#baking", "#indoor", "#accessible", "#cooking", "#desserts"],
+    "hobby": "baking"
+  },
   {
-    "title":"Adaptive Biking Hour" ,
-     "date":"2025-07-29" ,
-     "time":"9:00 AM - 10:00 AM" ,
-     "location":"Forest Park Bike Trail" , 
-     "description":"Ride using a variety of adaptive bikes for different abilities. Helmets provided.", 
-     "tags": ["#cycling", "#outdoor", "#adaptive", "#fitness", "#mobilityfriendly"], 
-     "hobby": "cycling"
- }, 
+    "title": "Adaptive Biking Hour",
+    "date": "2025-07-29",
+    "time": "9:00 AM - 10:00 AM",
+    "location": "Forest Park Bike Trail",
+    "description": "Ride using a variety of adaptive bikes for different abilities. Helmets provided.",
+    "tags": [
+      "#cycling",
+      "#outdoor",
+      "#adaptive",
+      "#fitness",
+      "#mobilityfriendly"
+    ],
+    "hobby": "cycling"
+  },
   {
-    "title":"Memory Book Craft Hour" ,
-     "date":"2025-07-30" ,
-     "time":"1:00 PM - 2:30 PM" ,
-     "location":"Midtown Community Hall" , 
-     "description":"Preserve your favorite memories with paper craft and embellishments. Supplies included.", 
-     "tags": ["#scrapbooking", "#indoor", "#accessible", "#crafts", "#creative"], 
-     "hobby": "scrapbooking"
- }, 
+    "title": "Memory Book Craft Hour",
+    "date": "2025-07-30",
+    "time": "1:00 PM - 2:30 PM",
+    "location": "Midtown Community Hall",
+    "description": "Preserve your favorite memories with paper craft and embellishments. Supplies included.",
+    "tags": ["#scrapbooking", "#indoor", "#accessible", "#crafts", "#creative"],
+    "hobby": "scrapbooking"
+  },
   {
-    "title":"Food Pantry Volunteer Morning" ,
-     "date":"2025-07-31" ,
-     "time":"9:00 AM - 11:00 AM" ,
-     "location":"STL Food Hub" , 
-     "description":"Help sort and pack food items for local families. Light lifting required.", 
-     "tags": ["#volunteering", "#indoor", "#accessible", "#service", "#community"], 
-     "hobby":"volunteering"
- },
-  {"title":"Guided Sound Bowl Meditation" ,
-     "date":"2025-08-01" ,
-     "time":"5:30 PM - 6:15 PM" ,
-     "location":"Soul Space Healing Studio" , 
-     "description":"Unwind with deep breathing and sound healing in a calm, cozy space.", 
-     "tags": ["#meditation", "#indoor", "#accessible", "#mentalhealth", "#wellness"], 
-     "hobby": "meditation"
+    "title": "Food Pantry Volunteer Morning",
+    "date": "2025-07-31",
+    "time": "9:00 AM - 11:00 AM",
+    "location": "STL Food Hub",
+    "description": "Help sort and pack food items for local families. Light lifting required.",
+    "tags": [
+      "#volunteering",
+      "#indoor",
+      "#accessible",
+      "#service",
+      "#community"
+    ],
+    "hobby": "volunteering"
+  },
+  {
+    "title": "Guided Sound Bowl Meditation",
+    "date": "2025-08-01",
+    "time": "5:30 PM - 6:15 PM",
+    "location": "Soul Space Healing Studio",
+    "description": "Unwind with deep breathing and sound healing in a calm, cozy space.",
+    "tags": [
+      "#meditation",
+      "#indoor",
+      "#accessible",
+      "#mentalhealth",
+      "#wellness"
+    ],
+    "hobby": "meditation"
   }
-    ]
+]
