@@ -3,7 +3,7 @@ import "./App.css";
 import UserForm from "./components/UserForm";
 import Profile from "./components/Profile";
 import { Route, Routes } from "react-router-dom";
-import Feed from "./components/feed";
+import feed from "./components/feed"; 
 import AboutPage from "./components/AboutPage";
 import GeneralNav from "./components/GeneralNav";
 
@@ -50,7 +50,7 @@ function App() {
               element={<UserForm profile={profile} setProfile={setProfile} />} // this is the User From path route (It will take the user through all of the onboarding questions.)
             />
             <Route path="/profile" element={<Profile profile={profile} />} />
-            <Route path="/feed" element={<Feed profile={profile} />} />
+            <Route path="/feed" element={<feed profile={profile}/>}/>
             <Route path="/about" element={<AboutPage />} />
           </Routes>
         </div>

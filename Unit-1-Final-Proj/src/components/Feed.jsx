@@ -7,7 +7,7 @@ import GeneralNav from "./GeneralNav";
       -upload events.jsx and have the function feed take {profile.hobbies} in as props
    2. Route the profile page to the feed page next*/
 
-export default function Feed({ profile }) {
+export default function feed({profile }) {
   //Feed Screen and
 
   const matchedEvents = events.filter(
