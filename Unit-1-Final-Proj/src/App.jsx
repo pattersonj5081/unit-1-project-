@@ -3,7 +3,7 @@ import "./App.css";
 import UserForm from "./components/UserForm";
 import Profile from "./components/Profile";
 import { Route, Routes } from "react-router-dom";
-import feed from "./components/feed"; 
+import Feed from "./components/Feed";
 import AboutPage from "./components/AboutPage";
 import GeneralNav from "./components/GeneralNav";
 
@@ -16,8 +16,9 @@ import GeneralNav from "./components/GeneralNav";
 */
 
 function App() {
-  const [profile, setProfile] = useState({   // Profile Structure/ Keys.
-   
+  const [profile, setProfile] = useState({
+    // Profile Structure/ Keys.
+
     name: "",
     age: "",
     pronouns: "",
@@ -25,7 +26,8 @@ function App() {
     location: "St. Louis",
   });
 
-  return (                    //Defines core app layout and Routes
+  return (
+    //Defines core app layout and Routes
     <div className="App">
       <div id="Header">
         <img
@@ -36,21 +38,21 @@ function App() {
         />
 
         <div id="header-button-box" className="flex-container">
-          <GeneralNav label="About Page" to="/about" id="about-page-button" />  
+          <GeneralNav label="About Page" to="/about" id="about-page-button" />
           <GeneralNav label="Profile" to="/profile" id="profile-page-button" />
           <GeneralNav label="Feed" to="/feed" id="feed-page-button" />
         </div>
       </div>
-       
-      <div className="Main">  
+
+      <div className="Main">
         <div>
-          <Routes>    
+          <Routes>
             <Route
               path="/"
               element={<UserForm profile={profile} setProfile={setProfile} />} // this is the User From path route (It will take the user through all of the onboarding questions.)
             />
             <Route path="/profile" element={<Profile profile={profile} />} />
-            <Route path="/feed" element={<feed profile={profile}/>}/>
+            <Route path="/feed" element={<Feed profile={profile} />} />
             <Route path="/about" element={<AboutPage />} />
           </Routes>
         </div>
