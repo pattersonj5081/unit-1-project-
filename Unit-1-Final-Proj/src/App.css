@@ -358,7 +358,7 @@ body {
     height: 50%;
     width: 75%;
   }
-}
+
 /*UserForm*/
 #warning-message {
   padding: 3%;
@@ -398,7 +398,7 @@ body {
   gap: 30px;
   margin: 3%;
 }
-
+}
 /*laptops and small desktop screens (lg)*/
 @media screen and (min-width: 900px) {
   /*Main */
