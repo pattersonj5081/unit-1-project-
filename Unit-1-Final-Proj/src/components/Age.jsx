@@ -5,7 +5,7 @@ export default function GetAge({ value, onChange }) {
   return (
     <div id="age">
       <form>
-        <label for="age-input">
+        <label htmlFor="age-input">
           What is your age?
           <input type="number" name="age" value={value} onChange={onChange} />
         </label>

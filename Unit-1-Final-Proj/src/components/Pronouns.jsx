@@ -38,7 +38,7 @@ export default function GetPronouns({ value, onChange }) {
           <label for="They/Them/Theirs">They/Them/Theirs</label>
           <br></br>
           <br />
-          <label for="Other">Other:</label>
+          <label htmlFor="Other">Other:</label>
           <br></br>
           <input
             type="text"
